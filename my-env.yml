@@ -1,0 +1,45 @@
+name: letter
+channels:
+  - defaults
+dependencies:
+  - asgiref=3.3.1=pyhd3eb1b0_0
+  - brotlipy=0.7.0=py36h9ed2024_1003
+  - ca-certificates=2021.1.19=hecd8cb5_1
+  - certifi=2020.12.5=py36hecd8cb5_0
+  - cffi=1.14.5=py36h2125817_0
+  - chardet=4.0.0=py36hecd8cb5_1003
+  - conda=4.9.2=py36hecd8cb5_0
+  - conda-package-handling=1.7.2=py36h22f3db7_0
+  - cryptography=3.4.7=py36h2fd3fbb_0
+  - django=3.1.7=pyhd3eb1b0_0
+  - idna=2.10=pyhd3eb1b0_0
+  - krb5=1.17.1=hddcf347_0
+  - libcxx=10.0.0=1
+  - libedit=3.1.20210216=h9ed2024_1
+  - libffi=3.3=hb1e8313_2
+  - libpq=12.2=h051b688_0
+  - ncurses=6.2=h0a44026_1
+  - openssl=1.1.1k=h9ed2024_0
+  - pip=21.0.1=py36hecd8cb5_0
+  - psycopg2=2.8.6=py36hbcfaee0_1
+  - pycosat=0.6.3=py36h9ed2024_0
+  - pycparser=2.20=py_2
+  - pyopenssl=20.0.1=pyhd3eb1b0_1
+  - pysocks=1.7.1=py36hecd8cb5_0
+  - python=3.6.13=h88f2d9e_0
+  - pytz=2021.1=pyhd3eb1b0_0
+  - readline=8.1=h9ed2024_0
+  - requests=2.25.1=pyhd3eb1b0_0
+  - ruamel_yaml=0.15.100=py36h9ed2024_0
+  - setuptools=52.0.0=py36hecd8cb5_0
+  - six=1.15.0=py36hecd8cb5_0
+  - sqlite=3.35.3=hce871da_0
+  - sqlparse=0.4.1=py_0
+  - tk=8.6.10=hb0a8c7a_0
+  - tqdm=4.59.0=pyhd3eb1b0_1
+  - urllib3=1.26.4=pyhd3eb1b0_0
+  - wheel=0.36.2=pyhd3eb1b0_0
+  - xz=5.2.5=h1de35cc_0
+  - yaml=0.2.5=haf1e3a3_0
+  - zlib=1.2.11=h1de35cc_3
+prefix: /usr/local/Caskroom/miniconda/base/envs/letter
