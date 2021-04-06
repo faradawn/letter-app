@@ -3,5 +3,5 @@ from django.http import HttpResponse
 
 # Create your views here.
 
-def index(request):
-    return HttpResponse("hello, this is index")
+def letter_home(request):
+    return HttpResponse('Welcome to letter_home') 
