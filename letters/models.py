@@ -7,7 +7,10 @@ from django.utils import timezone
 # Create your models here.
 
 class Questions(models.Model):
+    prompt_text = models.CharField(max_length=200, default="default prompt hey")
     pub_date = models.DateTimeField('publish date')
+    def __str__(self):
+        return self.prompt_text
     def was_published_recently(self):
         return self.pub_date >= timezone.now() - datetime.timedelta(days=1)
 
