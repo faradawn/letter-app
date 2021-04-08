@@ -1,0 +1,9 @@
+{% if latest %}
+    <ul>
+    {% for questions in latest %}
+        <li><a href="/letters/{{ questions.id }}/">{{ questions.prompt_text }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No polls are available. Bye</p>
+{% endif %}
